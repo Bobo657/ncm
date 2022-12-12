@@ -3,7 +3,7 @@
 @section('title', 'Sustainability')
 
 @section('content')
-<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60" style="background-position: 50% -2px;">
+<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60" style="background-image: url('/images/services/sustainability.jpg'); background-position: 100%;">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -43,7 +43,7 @@
                 </p>
                 <div class="divider-25"></div>
                 <div class="divider-25"></div>
-                <img class="rounded" src="/images/services/service1.jpg" alt="">
+                <img class="rounded" src="/images/services/service2.jpg" alt="">
                 <div class="divider-25"></div>
                 <div class="divider-30 hidden-above-lg"></div>
                 <h2 class="special-heading text-sm-left text-center">

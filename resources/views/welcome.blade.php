@@ -332,7 +332,7 @@
                     </h2>
                     <div class="divider-45 hidden-below-lg"></div>
                     <div class="divider-30 hidden-above-lg"></div>
-                    <p>NCM understands the implication of the word ‘you are what we eat’ which makes us take the food section very seriously. We offer a wide range of food including but not limited to Rice, Sugar, Edible oil and Flour. We have a seasoned army of food experts with years of experience and achievements who ensure safety and quality while sourcing and before moving them to the end user.
+                    <p>NCM understands the implication of the word you are what we eat’ which makes us take the food section very seriously. We offer a wide range of food including but not limited to Rice, Sugar, Edible oil and Flour. We have a seasoned army of food experts with years of experience and achievements who ensure safety and quality while sourcing and before moving them to the end user.
                     </p>
                     <div class="divider-45 hidden-below-lg"></div>
                     
@@ -434,8 +434,8 @@
     </div>
 </section>
 
-<section class="ds call-to-action text-center  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60">
-    <div class="container">
+<section class="ds call-to-action text-center  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60"  style="background-image: url('/images/services/contact.jpg');  ">
+    <div class="container" style="padding-top: 40px;">
         <div class="row">
             <div class="col-12">
                 <h2 class="special-heading text-center">
@@ -445,7 +445,7 @@
                 </h2>
                 <div class="divider-45 hidden-below-lg"></div>
                 <div class="divider-30 hidden-above-lg"></div>
-                <a class="btn btn-darkgrey big-btn" href="/trading">See More</a>
+                <a class="btn btn-darkgrey big-btn" href="/about_us">See More</a>
             </div>
         </div>
     </div>
@@ -473,7 +473,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="divider-40 hidden-above-lg"></div>
-                <div id="map-vector"></div>
+                <img src="/images/services/map.png" alt="01">
             </div>
         </div>
     </div>

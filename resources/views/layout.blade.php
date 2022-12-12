@@ -14,7 +14,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="format-detection" content="telephone=no">
-
+	<link rel="icon" type="image/x-icon" href="/images/logo.png">
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -30,6 +30,8 @@
 		<script src="/js/vendor/respond.min.js"></script>
 		<script src="/js/vendor/jquery-1.12.4.min.js"></script>
 	<![endif]-->
+
+
 
 </head>
 
@@ -299,7 +301,7 @@
 
 									
                                         <li>
-                                            <a href="/trading">Trading</a>
+                                            <a href="#"  class="sf-with-ul">Trading</a>
                                             <ul>
                                                 <li>
                                                     <a href="/#chemicals"> Chemicals & Aromatic</a>
@@ -401,7 +403,7 @@
 											<div class="form-group has-placeholder">
 												<label for="phone">Phone Number <span class="required">*</span></label>
 
-												<input type="text" required value="" name="phone" id="phone" class="form-control" placeholder="Phone Number">
+												<input type="text" required value="" name="number" id="phone" class="form-control" placeholder="Phone Number">
 											</div>
 										</div>
 									</div>
@@ -430,33 +432,23 @@
 							<div class="fw-divider-space divider-xl-160 divider-lg-130 divider-md-90"></div>
 							<div class="widget widget_icons_list">
 								<ul>
-									<li class="icon-inline ">
-										<div class="icon-styled icon-top  bordered round fs-16">
-											<i class="fas fa-phone"></i>
-										</div>
-										<p>{{ config('app.phone') }}</p>
-									</li>
-									<li class="icon-inline">
-										<div class="icon-styled icon-top bordered round  fs-16">
-											<i class="fas fa-envelope"></i>
-										</div>
-										<p><a href="#">{{ config('app.email') }}</a></p>
-									</li>
 									<li class="icon-inline">
 										<div class="icon-styled icon-top bordered round  fs-16">
 											<i class="fas fa-map-marker-alt"></i>
 										</div>
-										<p>
-											{{ config('app.address') }}
+										<p>Europe<br>
+									       {{ config('app.address') }}<br>
+										   E: {{ config('app.email') }}
 										</p>
 									</li>
                                     <li class="icon-inline">
 										<div class="icon-styled icon-top bordered round  fs-16">
 											<i class="fas fa-map-marker-alt"></i>
 										</div>
-										<p>
-											{{ config('app.address2') }}
-										</p>
+										<p>Africa<br>
+											{{ config('app.address2') }}<br>
+											E: {{ config('app.email2') }}
+										 </p>
 									</li>
 									{{-- <li class="icon-inline">
 										<div class="icon-styled icon-top bordered round  fs-16">

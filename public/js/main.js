@@ -1093,7 +1093,7 @@
                 var data = $currentSlider.data();
                 var nav = (data.nav !== 'undefined') ? data.nav : true;
                 var dots = (data.dots !== 'undefined') ? data.dots : true;
-                var speed = (data.speed !== 'undefined') ? data.speed : 7000;
+                var speed = (data.speed !== 'undefined') ? data.speed : 200;
 
                 $currentSlider.flexslider({
                     animation: "fade",
@@ -1105,7 +1105,7 @@
                     nextText: "",
                     smoothHeight: false,
                     slideshowSpeed: speed,
-                    animationSpeed: 600,
+                    animationSpeed: 400,
                     start: function (slider) {
                         slider.find('.intro_layers').children().css({'visibility': 'hidden'});
                         slider.find('.flex-active-slide .intro_layers').children().each(function (index) {
@@ -1172,8 +1172,8 @@
                     prevText: "",
                     nextText: "",
                     smoothHeight: false,
-                    slideshowSpeed: 5000,
-                    animationSpeed: 800,
+                    slideshowSpeed: 4000,
+                    animationSpeed: 600,
                 })
             });
         }

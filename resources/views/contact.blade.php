@@ -3,7 +3,7 @@
 @section('title', 'Contact Us')
 
 @section('content')
-<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60">
+<section class="page_title ds s-parallax s-pb-xl-80  s-pb-lg-100  s-pb-md-90 s-pt-md-190 s-pt-180 s-pb-60" style="background-image: url('/images/services/contact.jpg') ">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -13,7 +13,6 @@
                         <li class="breadcrumb-item">
                             <a href="/">Home</a>
                         </li>
-                       
                         <li class="breadcrumb-item active">
                             Contact
                         </li>
@@ -34,9 +33,10 @@
                     </div>
                     <div class="media-body">
                         <h6 class="">
-                            Our Address
+                            Europe 
                         </h6>
-                        <p class="">{{ config('app.address') }}</p>
+                        <p class="">{{ config('app.address') }}
+                        <br><br>E: {{ config('app.email') }}</p>
                     </div>
                 </div>
             </div>
@@ -47,25 +47,14 @@
                     </div>
                     <div class="media-body">
                         <h6 class="">
-                            Nigeria Address
+                            Africa 
                         </h6>
-                        <p class="">{{ config('app.address2') }}</p>
+                        <p class="">{{ config('app.address2') }}<br><br>
+                            E: {{ config('app.email2') }}</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="media text-center text-sm-left">
-                    <div class="icon-styled fs-60 color-main">
-                        <i class="ico ico-call"></i>
-                    </div>
-                    <div class="media-body">
-                        <h6 class="">
-                            Our Number
-                        </h6>
-                        <p class="">{{ config('app.phone') }}</p>
-                    </div>
-                </div>
-            </div>
+           
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="media text-center text-sm-left">
                     <div class="icon-styled fs-60 color-main">
@@ -75,10 +64,11 @@
                         <h6 class="">
                             Our Email
                         </h6>
-                        <p class=""><a href="mailto:{{ config('app.email') }}" class="__cf_email__" data-cfemail="305e51564451705548515d405c551e535f5d">{{ config('app.email') }}</a></p>
+                        <p class=""><a href="mailto:info@ncmtrading.com" >info@ncmtrading.com</a></p>
                     </div>
                 </div>
             </div>
+            
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="media text-center text-sm-left">
                     <div class="icon-styled fs-60 color-main">
@@ -88,7 +78,7 @@
                         <h6 class="">
                             Opening time
                         </h6>
-                        <p class="">Mon-Fri: 8am-6pm</p>
+                        <p class="">Mon-Fri: 9am-5pm</p>
                     </div>
                 </div>
             </div>
@@ -150,7 +140,7 @@
                                     <div class="form-group has-placeholder">
                                         <label for="phone">Phone Number <span class="required">*</span></label>
                                         <i class="fas fa-phone"></i>
-                                        <input type="text" aria-required="true" size="30" value="" name="phone" id="name3355553" class="form-control" placeholder="Phone Number">
+                                        <input type="text" aria-required="true" size="30" value="" name="number" id="number" class="form-control" placeholder="Phone Number">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">

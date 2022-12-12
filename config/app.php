@@ -17,15 +17,13 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
-    'email' => 'info@ncmtrading.com',
+    'email' => 'office.ro@ncmtrading.com',
 
-    'address' => 'Crinilor No.3, E11/2/4, Deva 330099, Romania',
+    'address' => 'Crinilor E11/2/4, Deva 330099, Romania.',
 
     'address2' => 'C01 Zion Avenue Winners Estate Legacy Layout Trans Ekulu Enugu Nigeria',
 
-    'phone' => 'XXXX XXX XXX XX',
-
-    'mobile' => 'XXXX XXX XXX XX',
+    'email2' => 'office.ng@ncmtrading.com',
 
     /*
     |--------------------------------------------------------------------------
